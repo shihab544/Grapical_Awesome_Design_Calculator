@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:gravity="right|bottom"
+
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:id="@+id/display"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:background="#990033"
+        />
+
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+
+        android:layout_marginTop="70dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="7"
+            android:id="@+id/btn_7"
+            android:onClick="methodBtn_7"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="8"
+            android:id="@+id/btn_8"
+            android:onClick="methodBtn_8"
+            />
+
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="methodBtn_9"
+            android:text="9" />
+
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="+"
+            android:id="@+id/btn_add"
+            android:onClick="methodBtn_Add"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/sk"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="4"
+            android:id="@+id/btn_4"
+            android:onClick="methodBtn_4"
+            />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="methodBtn_5"
+            android:text="5" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="6"
+            android:id="@+id/btn_6"
+            android:onClick="methodBtn_6"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="-"
+            android:id="@+id/btn_sub"
+            android:onClick="methodBtn_Sub"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/sk"
+            />
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="1"
+            android:id="@+id/btn_1"
+            android:onClick="methodBtn_1"
+            />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:onClick="methodBtn_2"
+            android:text="2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="3"
+            android:id="@+id/btn_3"
+            android:onClick="methodBtn_3"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="*"
+            android:id="@+id/btn_mul"
+            android:onClick="methodBtn_Mul"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/sk"
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="10dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="0"
+            android:id="@+id/btn_0"
+            android:onClick="methodBtn_0"
+            tools:ignore="OnClick" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="."
+            android:id="@+id/btn_dot"
+            android:onClick="methodBtn_Dot"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="="
+            android:id="@+id/btn_equal"
+            android:onClick="methodBtn_Equal"
+            />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:text="/"
+            android:id="@+id/btn_div"
+            android:onClick="methodBtn_Add"
+            android:textSize="20sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:background="@drawable/sk"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/clearBtn"
+        android:onClick="method_Clear"
+        android:text="c"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:background="@drawable/sk2"
+        />
+
+
+</LinearLayout>
+
+
+
+
+
